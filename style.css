@@ -1,0 +1,168 @@
+body {
+  background: #f5f6fa;
+  font-family: 'Google Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.gpay-container {
+  max-width: 370px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(60, 64, 67, 0.12);
+  padding: 24px 18px 16px 18px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.gpay-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.gpay-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a73e8;
+}
+
+.gpay-tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.tab {
+  flex: 1;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  padding: 10px 0;
+  cursor: pointer;
+  color: #5f6368;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-bottom 0.2s;
+}
+
+.tab.active,
+.tab:hover {
+  color: #1a73e8;
+  border-bottom: 2px solid #1a73e8;
+}
+
+.send-money-area {
+  background: #f0f4fa;
+  border-radius: 12px;
+  padding: 18px 14px;
+  margin-bottom: 18px;
+  box-shadow: 0 1px 4px rgba(60, 64, 67, 0.07);
+}
+
+.recipient {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.recipient-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 12px;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(60, 64, 67, 0.08);
+}
+
+.recipient-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.recipient-upi {
+  font-size: 0.95rem;
+  color: #888;
+}
+
+.gpay-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.gpay-form label {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+.gpay-form input,
+.gpay-form select {
+  padding: 12px;
+  font-size: 1.1rem;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.gpay-form input:focus,
+.gpay-form select:focus {
+  border-color: #1a73e8;
+}
+
+.gpay-pay-btn {
+  background: #1a73e8;
+  color: #fff;
+  font-size: 1rem;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.2s;
+}
+
+.gpay-pay-btn:hover {
+  background: #1765c1;
+}
+
+.pay-btn-icon {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #888;
+  font-size: 1.1rem;
+  margin-top: 30px;
+}
+
+.info-box span {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 28px;
+  text-align: center;
+}
+
+.ref-text {
+  font-size: 0.85rem;
+  color: #888;
+}
